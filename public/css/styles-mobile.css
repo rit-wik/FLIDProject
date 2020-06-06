@@ -1,0 +1,175 @@
+@media only screen and (max-width: 768px) {
+  .first-img-1 {
+    visibility: hidden;
+  }
+  .first-img-2 {
+    visibility: hidden;
+  }
+  .first {
+    top: 10%;
+    height: 27%;
+  }
+  .header-links {
+    top: 6em;
+    font-size: 1.5vw;
+    left: 24.5em;
+    font-size: 1.5vw;
+  }
+  .blog {
+    top: 2em;
+    font-size: 1.5vw;
+  }
+  .header {
+    height: 3em;
+  }
+  .flid {
+    font-size: 5vw;
+    left: 8.7em;
+  }
+  .fullform {
+    top: 3.5em;
+    font-size: 1.8vw;
+    left: 16em;
+  }
+  .first-1 {
+    font-size: 5.5vw;
+    left: 4em;
+  }
+  .first-2 {
+    font-size: 2.2vw;
+    left: 6.5em;
+    top: 5.5em;
+  }
+  .user {
+    position: absolute;
+    top: 0.8em;
+    right: 1em;
+    width: 4.5%;
+  }
+  .second {
+    position: absolute;
+    width: 100%;
+    top:37%;
+    height: 32%;
+    background-color:#f4f4f4 ;
+  }
+  .second-1 {
+    position: absolute;
+    top: 6em;
+    left: 7.5em;
+    font-weight: 500;
+    font-size: 2vw;
+  }
+  .second-2 {
+    position: absolute;
+    top: 11.5em;
+    left: 7.5em;
+    font-weight: 500;
+    font-size: 2vw;
+  }
+  .second-3 {
+    position: absolute;
+    top: 18em;
+    left: 7.5em;
+    font-weight: 700;
+    font-size: 2vw;
+    line-height: 2em;
+  }
+  .second-title {
+    position: absolute;
+    top: 0.5em;
+    left: 4.7em;
+    font-size: 4.5vw;
+  }
+  .second-img-1 {
+    visibility:hidden;
+  }
+  .third {
+    display: none;
+  }
+  .fourth {
+    position: absolute;
+    width: 100%;
+    top: 69%;
+    height: 42%;
+    background-color: #00a8cc;
+  }
+  .carousel {
+    position: absolute;
+    right:0.1vw;
+    top: 70vw;
+    width: 100vw;
+    height: 85vw;
+  }
+  .fourth-title {
+    position: absolute;
+    font-size: 4vw;
+    top: 0.1em;
+    left: 5em;
+    font-size: 6vw;
+  }
+  .fourth-text-1 {
+    position: absolute;
+    top: 5em;
+    left: 6em;
+    font-size: 2.5vw;
+  }
+  .fourth-text-2 {
+    position: absolute;
+    top: 13em;
+    left: 6em;
+    font-size: 2.5vw;
+    font-weight: 500;
+  }
+  .signup {
+    position: absolute;
+    top: 24em;
+    left: 7.5em;
+    width: 20%;
+    font-size: 2vw;
+  }
+  .footer {
+    position: absolute;
+    width: 100%;
+    top:174%;
+    height: 10%;
+    background-color: #084177;
+  }
+  .footer-title {
+    font-size: 4vw;
+    left: 10.5em;
+  }
+  .footer-fullform {
+    font-size: 1.4vw;
+    top: 4.5em;
+    left: 22em;
+  }
+  .footer-img {
+    width: 3.5%;
+    top: 2.7em;
+    left: 11.5em;
+  }
+  .footer-links {
+    display: none;
+  }
+  .footer-links-1 {
+    display: none;
+  }
+  .footer-copy {
+    font-size: 1.5vw;
+    top: 8em;
+  }
+  .home-btn {
+    top:1.5em;
+    font-weight: 800;
+    font-size: 1.5vw;
+  }
+  .dropdown-content {
+    top: 5em;
+  }
+  .footer-header-links {
+    position: absolute;
+    top: 40%;
+    height: 10%;
+  }
+}

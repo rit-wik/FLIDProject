@@ -1,0 +1,18 @@
+<%- include("partials/header"); -%>
+<a href="/login" class="btn btn-primary btn-lg btn-seecomment-back">Back</a>
+
+<div class="div-approval">
+<% for(var i=0;i<Stories.length;i++) { %>
+  <div class="story-div">
+    <label class="approval-status">Approval Status: <%= Stories[i].Status %></label>
+    <p class="approval-title"> <%= Stories[i].Title %> </p>
+    <% if(Stories[i].Status=="Rejected With Comment") { %>
+        <a href="/login/onlineCounselling/approvals/rejectComment/<%=Stories[i].id %>" class="btn btn-primary btn-comment">See Comment</a>
+    <% } %>
+    <%  if(Stories[i].Status==="Approved") { %>
+        <a href="/login/onlineCounselling/storyApproval/doctor/discussionsection/<%= Stories[i].id %>" class="btn btn-primary btn-comment">Doctor's View</a>
+      <% } %>
+    </div>
+<%}%>
+  </div>
+<%- include("partials/footer"); -%>

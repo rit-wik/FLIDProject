@@ -1,0 +1,41 @@
+<%- include("partials/header"); -%>
+<% if(User.Profession==="flidian"||User.Profession==="flidian-doc") { %>
+<a href="/login/promoter/discussion" class="btn btn-primary btn-lg btn-seecomment-back">Questions</a>
+<%} else { %>
+<a href="/login/questions" class="btn btn-primary btn-lg btn-seecomment-back">Questions</a>
+<%}%>
+  <h1 class="questionHeading"><%= Question.Question %></h1>
+<div class="discussionDiv">
+<% for(var i=0;i<Question.Discussion.length;i++) { %>
+    <div class="discussion-div">
+      <label class="discussion-text">From:</label>
+      <label class="discussion-text"><%= Question.Discussion[i].User.firstName %> <%= Question.Discussion[i].User.lastName %></label>
+      <label class="discussion-text">Profession:</label>
+      <label class="discussion-text"><%= Question.Discussion[i].User.Profession %></label>
+      <% if(Question.Discussion[i].User.Profession==="flidian-doc") { %>
+        <br>
+        <label class="flidan-doc-label">Approved Doctor</label>
+      <%}%>
+      <p class="discussion-text-2"><%= Question.Discussion[i].Discussion %></p> <br>
+    </div>
+<%  } %>
+<% if(Question.Status==="Rejected") { %>
+  <h3 style="text-align: center;">This question has been closed by promoter.</h3>
+<%}%>
+
+  </div>
+   <div class="questionpage-container">
+    <% if(Question.Status==="Approved"){ %>
+  <form action="/addDiscussion/<%= Question.id %>" class="addQues" method="post">
+        <label for="exampleFormControlTextarea1" class="askQuestionLabel">Add Comments:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" name="discussion" rows="3"></textarea>
+    <button type="submit" class="btn btn-primary btn-question-comment-submit">Submit</button>
+  </form>
+  <%}%>
+  <% if(User.Profession=="flidian"&&Question.Status==="Approved") { %>
+    <p class="discussion-heading"> Promoter Controls: </p>
+    <a href="/login/promoter/discussion/reject/update/<%= Question.id %>" class="btn btn-primary btn-promoter-discussion-reject">Reject</a>
+  <%}%>
+    </div>
+
+<%- include("partials/footer"); -%>

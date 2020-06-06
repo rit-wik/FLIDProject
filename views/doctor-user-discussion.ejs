@@ -1,0 +1,22 @@
+<%- include("partials/header"); -%>
+<% if(User.Profession=="flidian-doc") { %>
+<a href="/login/doctor/approvals" class="btn btn-primary btn-lg btn-seecomment-back">Back</a>
+<%} else { %>
+  <a href="/login/onlineCounselling/approvals" class="btn btn-primary btn-lg btn-seecomment-back">Back</a>
+  <% } %>
+<div class="doctor-user-div">
+<% for(var i=0;i<Story.Discussion.length;i++) { %>
+  <div class="doctor-user-div-1">
+    <label class="doctor-user-label">Name: <%= Story.Discussion[i].User.firstName %></label>
+    <label class="doctor-user-label"><%= Story.Discussion[i].User.lastName %></label>
+    <label class="doctor-user-label">Profession:<%= Story.Discussion[i].User.Profession %></label>
+    <p class="doctor-user-discussion"><%=Story.Discussion[i].Discussion%></p>
+    </div>
+<%}%>
+  </div>
+    <form action="/login/onlineCounselling/storyApproval/doctorComment/update/<%= Story.id %>" method="post" class="form-2">
+      <label class="doctor-user-label-comment">Add Comment:</label>
+      <textarea class="form-control doctor-user-add-comment" name="doctorComment" rows="5"></textarea>
+       <button type="submit" class="btn btn-primary btn-user-doctor-submit">Add Comment</button>
+    </form>
+<%- include("partials/footer"); -%>

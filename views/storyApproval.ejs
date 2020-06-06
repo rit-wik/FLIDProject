@@ -1,0 +1,13 @@
+<%- include("partials/header"); -%>
+<a href="/login/promoter/approvals" class="btn btn-primary btn-approvepage-back">Back</a>
+<div class="approval-page">
+  <p class="Approval-title"><%= Story.Title %></p>
+  <p class="Approval-title-story"> <%= Story.Story %></p>
+  </div>
+  <div class="approval-btns">
+    <a href="/login/onlineCounselling/storyApproval/approve/<%=Story.id%>" class="btn btn-primary btn-approvepage">Approve</a>
+    <a href="/login/onlineCounselling/storyApproval/reject/<%=Story.id%>" class="btn btn-primary btn-approvepage">Reject</a>
+    <a href="/login/onlineCounselling/storyApproval/rejectComment/<%=Story.id%>" class="btn btn-primary btn-approvepage">Reject with comment</a>
+    </div>
+
+<%- include("partials/footer"); -%>

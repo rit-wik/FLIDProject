@@ -1,0 +1,23 @@
+<%- include("partials/header"); -%>
+<a href="/login" class="btn btn-primary btn-lg btn-seecomment-back">Back</a>
+<div class="doctor-div">
+<% for(var i=0;i<Stories.length;i++) { %>
+  <div class="promoter-approval">
+    <label class="promoter-firstName">Name:</label>
+    <label class="promoter-firstName"><%= Stories[i].User.firstName %> <%= Stories[i].User.lastName %> </label>
+    <label class="promoter-firstName">Status:</label>
+    <label class="promoter-firstName">  <%=Stories[i].Status%></label>
+    <p class="promoter-approval-title"><%=Stories[i].Title%></p>
+    <% if(Stories[i].Status==="Approved For Doctor") { %>
+    <a href="/login/doctor/approvals/review/<%= Stories[i].id %>" class="btn btn-primary btn-promoter-show">Read Story</a>
+    <% } if(Stories[i].Status==="Approved") { %>
+    <a href="/login/onlineCounselling/storyApproval/doctor/discussionsection/<%=Stories[i].id%>" class="btn btn-primary btn-promoter-show">Discussion Section</a>
+    <%}%>
+    </div>
+<%}%>
+</div>
+<%- include("partials/footer"); -%>
+
+
+
+<!--- used template from promoter ejs as same layout --->

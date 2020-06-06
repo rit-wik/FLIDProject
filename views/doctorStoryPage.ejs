@@ -1,0 +1,14 @@
+<%- include("partials/header"); -%>
+<a href="/login/doctor/approvals" class="btn btn-primary btn-lg btn-seecomment-back">Back</a>
+<div class="seecomment-div story">
+  <div class="seecomment-div-2 story-1">
+  <p class="seecomment-title"><%= Story.Title %></p>
+  <p class="seecomment-story"><%= Story.Story %></p>
+    </div>
+  <p class="seecomment-title-2">Doctor's View:</p>
+    <form action="/login/onlineCounselling/storyApproval/doctorComment/update/<%=Story.id%>" method="post">
+      <textarea class="form-control story-3" id="exampleFormControlTextarea1" rows="10" name="doctorComment"></textarea>
+      <button type="submit" class="btn btn-primary btn-doctor-submit">Submit</button>
+    </form>
+  </div>
+<%- include("partials/footer"); -%>

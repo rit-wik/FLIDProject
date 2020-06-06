@@ -1,0 +1,48 @@
+<%- include("partials/header"); -%>
+      <div class="signup">
+      <p class="signup-title">Sign Up</p>
+      <form class="signup-form" action="/createaccount" method="post">
+        <div class="form-row">
+          <div class="col">
+            <div class="form-group">
+              <label for="fname" class="form-label">First Name:</label> <br>
+              <input type="text" name="firstName" class="form-label" id="fname" required>
+            </div>
+            <div class="form-group">
+              <label for="lname" class="form-label">Last Name:</label> <br>
+              <input type="text" name="lastName" class="form-label" id="lname" required>
+            </div>
+            <div class="form-group">
+              <label for="profession" class="form-label">Profession:</label> <br>
+              <input type="text" name="Profession" class="form-label" id="profession" required>
+            </div>
+            <div class="form-group">
+              <label for="residence" class="form-label">State Of Residence:</label> <br>
+              <input type="text" name="stateOfResidence" class="form-label" id="residence" required>
+            </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                  <label for="mobile" class="form-label">Mobile Number:</label> <br>
+                  <input type="number" name="mobileNumber" class="form-label" id="mobile" required>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1" class="form-label email">Email Address:</label>
+                  <input type="email"  name="username" class="form-control email" id="exampleInputEmail1" required>
+                  <small class="form-text text-muted email">We'll never share your email with anyone else.</small>
+                  </div>
+                <div class="form-group">
+                  <label for="password" class="form-label pass">Password:</label> <br>
+                  <input type="Password" name="password" class="form-label pass" id="password" required>
+                </div>
+                <div class="form-group">
+                  <label for="city" class="form-label pass">City Of Residence:</label> <br>
+                  <input type="text" name="cityOfResidence" class="form-label pass" id="city" required>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg btn-signup-1">Create Account</button>
+          </div>
+      </form>
+      <h3 class="already-registered"><%= data %></h3>
+      </div>
+  <%- include("partials/footer"); -%>

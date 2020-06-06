@@ -1,0 +1,122 @@
+.signup {
+  position: absolute;
+  top: 11.25vw;
+  width: 100%;
+  height: 46.875vw;
+  background-color: #00a8cc;
+  left: 0;
+}
+.signup-title {
+  position: absolute;
+  top: 0.3vw;
+  left: 41vw;
+  color: white;
+  font-size: 3.5vw;
+  font-weight: 600;
+}
+
+.signup-form {
+  position: absolute;
+  top: 5vw;
+  left: 23.12vw;
+}
+.form-label {
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.col {
+  margin: 3.125vw;
+}
+.pass {
+  position: relative;
+  bottom: 0.8vw;
+}
+.btn-signup-1 {
+  position: absolute;
+  width: 12vw;
+  top: 31vw;
+  left: 18vw;
+  font-size: 1vw;
+}
+
+.blog-body {
+  position: absolute;
+  width: 100%;
+  top: 11.25vw;
+  height: 42vw;
+  background-color: white;
+}
+.column1 {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+}
+
+.row1 {margin: 0 -5px;}
+
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.card-row-1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 1.2vw;
+  width: 14.37vw;
+  height: 19.37vw;
+  margin-right: 25vw;
+  margin-left: 2vw;
+  margin-bottom: 1vw;
+}
+.column2 {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+}
+
+.row2 {margin: 0 -5px;}
+
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.card-row-2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 22vw;
+  width: 14.37vw;
+  height: 19.37vw;
+  margin-right: 25vw;
+  margin-bottom: 1vw;
+  margin-left: 2vw;
+}
+
+
+.card-blogs-text {
+  position: relative;
+  bottom: 0.31vw;
+  font-size: 0.9vw;
+}
+.btn-blogs {
+  position: absolute;
+  left: 1vw;
+  right: 1vw;
+  width: 70%;
+  font-size: 1vw;
+}
+.form-control {
+  font-size: 1vw;
+}

@@ -1,0 +1,14 @@
+<%- include("partials/header"); -%>
+  <a href="/login" class="btn btn-primary btn-lg btn-seecomment-back">Back</a>
+<div class="promoter-approval-div">
+  <% for(var i=0;i<Questions.length;i++) { %>
+    <div class="promoter-approval">
+      <label class="promoter-firstName">Name:</label>
+      <label class="promoter-firstName"><%= Questions[i].User.firstName %> <%= Questions[i].User.lastName %> </label>
+      <label class="promoter-firstName">Status:<%= Questions[i].Status %></label>
+      <p class="promoter-approval-title"><%=Questions[i].Question%></p>
+      <a href="/questions/<%-Questions[i].id%>" class="btn btn-primary btn-promoter-show">Read Discussion</a>
+      </div>
+  <%}%>
+  </div>
+<%- include("partials/footer"); -%>

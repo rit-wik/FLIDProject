@@ -1,0 +1,14 @@
+<%- include("partials/header"); -%>
+<a href="/login/onlineCounselling/approvals" class="btn btn-primary btn-lg btn-seecomment-back">Back</a>
+<div class="seecomment-div">
+<div class="seecomment-div-2">
+<p class="seecomment-title"><%= Story.Title %></p>
+<p class="seecomment-story"><%= Story.Story %></p>
+  </div>
+<p class="seecomment-title-2">Promoter's Comment:</p>
+<div class="seecomment-promoter-comment-div">
+  <label class="seecomment-promoter-name">Promoter's Name:<%= Story.User.firstName%> <%= Story.User.lastName%></label>
+  <p class="seecomment-promoter-comment"><%=Story.Discussion[0].Discussion%></p>
+  </div>
+  </div>
+<%- include("partials/footer"); -%>

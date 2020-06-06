@@ -1,0 +1,86 @@
+.footer-header-links {
+  position: absolute;
+  top: 53.125vw;
+  width: 100%;
+  height: 20%;
+  background-color:#084177;
+  font-size: 1vw;
+}
+.first {
+  position: absolute;
+  top: 11.25vw;
+  width: 100%;
+  height: 50vw;
+  background-color: white;
+}
+.title {
+  position: absolute;
+  font-size: 3vw;
+  color: black;
+  top: 0.93vw;
+  left: 6vw;
+  font-weight: 550;
+}
+.title-text {
+  position: absolute;
+  top: 9vw;
+  left: 4.8vw;
+  font-weight: 500;
+  font-size: 1.2vw;
+}
+.apple {
+  position: absolute;
+  width: 30%;
+  right: 2.5vw;
+  top: 1.87vw;
+}
+.quote {
+  position: absolute;
+  top: 36vw;
+  left: 4vw;
+  font-weight: 700;
+  font-size: 1.6vw;
+}
+.heart {
+  position: absolute;
+  width: 35%;
+  top: 6.25vw;
+  right: 5vw;
+}
+.btn-support {
+  position: absolute;
+  top: 30vw;
+  left: 5vw;
+  font-size: 1vw;
+}
+.support {
+  position: absolute;
+  width: 37%;
+  top: 2vw;
+  right: 4.37vw;
+}
+.blog-title {
+text-align: center;
+  font-size: 3vw;
+  font-weight: 600;
+}
+.blog-text {
+  position: absolute;
+  top: 6vw;
+  left: 14.5vw;
+  font-size: 1.3vw;
+  font-weight: 500;
+
+}
+.blog-link {
+  position: absolute;
+  color: black;
+  font-size: 1.3vw;
+  top: 35vw;
+  left: 14.5vw;
+  font-weight: 500;
+}
+.blog-link:hover {
+  color: #00a8cc;
+  text-decoration: none;
+}

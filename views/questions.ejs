@@ -1,0 +1,15 @@
+<%- include("partials/header"); -%>
+<a href="/login" class="btn btn-primary btn-lg btn-seecomment-back">Back</a>
+<% for(var i=0;i<Questions.length;i++) { %>
+  <ul class="quesList">
+      <li> <a href="/questions/<%-Questions[i].id%>" class="quesLink"><%= Questions[i].Question %></a>
+    </ul>
+<% } %>
+<form action="/login/addQuestion" class="addQues1" method="post">
+  <div class="form-group">
+      <label for="exampleFormControlTextarea1" class="askQuestionLabel">Ask Question:</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" name="question" rows="3"></textarea>
+    </div>
+  <button type="submit" class="btn btn-primary" style="font-size:1.2vw;">Submit</button>
+</form>
+<%- include("partials/footer"); -%>

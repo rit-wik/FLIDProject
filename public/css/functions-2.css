@@ -1,0 +1,91 @@
+.doctor-user-label-comment {
+  font-size: 1.3vw;
+  font-weight: 500;
+}
+.doctor-user-add-comment {
+  width: 82vw;
+  font-size: 1vw;
+}
+.btn-user-doctor-submit {
+  position: absolute;
+  top: 11.2vw;
+  left: 34vw;
+  font-size: 1.1vw;
+}
+.promoter-discussion {
+  position: absolute;
+  top: 32vw;
+  left: 40vw;
+  font-size: 2.1vw;
+}
+.btn-promoter-discussion {
+  position: absolute;
+  top: 37vw;
+  left: 46vw;
+  font-size: 1.1vw;
+}
+.btn-promoter-discussion-reject {
+  position: relative;
+  top: 4vw;
+  left: 64vw;
+  font-size: 1.2vw;
+}
+.discussion-heading {
+  position: absolute;
+  left: 60vw;
+  top: 1vw;
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+.flidan-doc-label {
+  font-size: 1.5vw;
+  font-weight: 700;
+}
+.container-loginHome {
+  position: absolute;
+  width: 100%;
+  height: 84.8%;
+  top: 11em;
+  background-color: white;
+}
+.approval-btns {
+  position: absolute;
+  width: 85%;
+  height: 4vw;
+  top:49vw;
+  left: 8vw;
+  background-color: white;
+}
+.questionpage-container {
+  position: absolute;
+  top: 40.5vw;
+  left: 7vw;
+  width: 85%;
+  height: 36.5%;
+  background-color: white;
+}
+.btn-question-comment-submit {
+  font-size: 1.1vw;
+  position: relative;
+  top: 0.5vw;
+  width: 9vw;
+}
+.login-container {
+  position: absolute;
+  width: 100%;
+  height: 73%;
+  top: 10em;
+  background-color: white;
+}
+.form-2 {
+  position: absolute;
+  top: 39vw;
+  left: 10vw;
+}
+.addQues1 {
+  position: absolute;
+  top: 40vw;
+  left: 7.5vw;
+  width: 35vw;
+  font-size: 1.2vw;
+}

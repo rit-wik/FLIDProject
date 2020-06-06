@@ -1,0 +1,203 @@
+.footer-login {
+  position: absolute;
+  top: 46vw;
+  height: 10vw;
+  background-color:#084177;
+}
+
+.form-signin {
+  position: absolute;
+  top: 5vw;
+  left: 26vw;
+  width: 100%;
+  max-width: 20.625vw;
+  padding: 0.93vw;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 0.625vw;
+  font-size: 1vw;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -0.0625vw;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 0.625vw;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.img-mental {
+  position: absolute;
+  top: 1em;
+  right: 13.125vw;
+  width: 31%;
+}
+.new {
+  position: absolute;
+  top: 20em;
+  left: 19em;
+  font-weight: 500;
+  font-size: 1.2vw;
+}
+
+.btn-signup {
+  position: absolute;
+  top: 27vw;
+  left: 35vw;
+  font-size: 1vw;
+}
+.bd-placeholder-img {
+  font-size: 1.125vw;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.home-title {
+  position: relative;
+  display: inline-block;
+  top: 4.4em;
+  left:1.5em;
+  font-size: 1.8vw;
+}
+.btn-logout {
+  position: absolute;
+  right: 2.875em;
+  top: 7.3em;
+  font-size: 1vw;
+}
+
+.btn-goog {
+  position: absolute;
+  width: 12.5vw;
+  top: 11em;
+  left: 3.75vw;
+  font-size: 1vw;
+}
+.goog-icon {
+  width: 2vw;
+  position: absolute;
+  top: 11.5vw;
+  left: 3.81vw;
+}
+.vl {
+  position: absolute;
+  transform: rotate(90deg);
+  height: 8.43vw;
+  width: 14vw;
+  top: 10vw;
+  left: 10vw;
+}
+.already-registered {
+  position: absolute;
+  bottom: 3.1em;
+  left: 16.1em;
+}
+
+.addQues {
+  position: absolute;
+  top: 1vw;
+  left: 6vw;
+  width: 35vw;
+  font-size: 1.2vw;
+}
+
+.quesList {
+  position: relative;
+  top: 13vw;
+  left: 6vw;
+  width: 50%;
+}
+.quesLink:hover {
+  text-decoration: none;
+  color: #00a8cc;
+}
+.quesLink {
+  font-size: 1.5vw;
+  color: black;
+  font-weight: 500;
+}
+.askQuestionLabel {
+  color: black;
+  font-size: 1.2vw;
+  font-weight: 500;
+}
+.questionHeading {
+  position: absolute;
+  left: 3.3em;
+  top:4em;
+  font-size: 2.7vw;
+}
+.discussionDiv {
+  position: absolute;
+  top: 15vw;
+  left: 7.5vw;
+  width: 85%;
+  height:52%;
+  background-color: #97e5ef;
+  overflow: scroll;
+}
+.discussion-text {
+  font-size: 1.1vw;
+  font-weight: 600;
+}
+.discussion-text-2 {
+  font-size: 1.4vw;
+  font-weight: 600;
+}
+.discussion-div {
+  background-color: white;
+  margin: 1em;
+  margin: 1em;
+  padding: 1em;
+}
+.loginPage-1 {
+  position: absolute;
+  top: 2em;
+  left: 15.7em;
+  font-size: 2.5vw;
+}
+.btn-yourQuestions {
+  position: absolute;
+  top: 9em;
+  left: 36em;
+  font-size: 1.1vw;
+}
+.btn-allQuestions {
+  position: absolute;
+  top: 9em;
+  left: 46em;
+  font-size: 1.1vw;
+}
+.loginPage-2 {
+  position: absolute;
+  font-size: 2.5vw;
+  top: 8em;
+  left: 1em;
+}
+.btn-onlineCounselling-1 {
+  position: absolute;
+  left: 3em;
+  top: 21em;
+  font-size: 1.2vw;
+}
+.btn-onlineCounselling-2 {
+  position: absolute;
+  left: 12em;
+  top: 21em;
+  font-size: 1.2vw;
+}

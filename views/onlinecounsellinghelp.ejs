@@ -1,0 +1,12 @@
+<%- include("partials/header"); -%>
+<a href="/login" class="btn btn-primary btn-lg btn-seecomment-back">Back</a>
+<div class="gethelp-body">
+<form action="/login/onlineCounselling/submit" method="post">
+  <label class="help-title">Title:</label>
+  <input type="text" name="onlineCounsellingTitle" class="form-control counselling-title">
+  <label class="help-story">Story:</label>
+   <textarea class="form-control counselling-story" name="onlineCounsellingStory" rows="15"></textarea>
+   <button type="submit" class="btn btn-primary btn-help">Submit</button>
+</form>
+  </div>
+<%- include("partials/footer"); -%>

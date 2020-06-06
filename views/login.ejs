@@ -1,0 +1,37 @@
+<%- include("partials/header"); -%>
+  <div class="login-container">
+  <form class="form-signin" action="/login" method="post">
+  <img class="mb-4" src="/docs/4.4/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+  <h1 class="h3 mb-3 font-weight-normal" style="font-size:2vw;">Please Log in</h1>
+  <label for="inputEmail" class="sr-only">Email address</label>
+  <input type="email" name="username" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+  <label for="inputPassword" class="sr-only">Password</label>
+  <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
+  <button class="btn btn-lg btn-primary btn-block" type="submit" style="font-size:1.2vw;">Log in</button>
+</form>
+<img  class="img-mental" src="/photos/Mental.png" alt="">
+<p class="new">Not a member?No worries,You can always signup for free!</p>
+<form action="/signup" method="post">
+<button type="submit" class="btn btn-primary btn-lg btn-signup">Sign Up</button>
+</form>
+<a class="btn btn-social btn-google btn-goog" href="/auth/google" style="color: white; font-size:1vw;">
+  <i class="fa fa-google"></i>Sign in with google
+</a>
+<img src="/photos/181.png" class="goog-icon" alt="">
+<hr class="vl">
+</div>
+      <div class="footer-login">
+        <p class="footer-title">FLID</p>
+        <p class="footer-fullform">Foundation Of Lonliness Insecurity and Depression</p>
+      <a href="#"><img class="footer-img" src="/photos/icon-facebook.png"></a>
+      <a href="#"><img class="footer-img" src="/photos/icon-instagram.png"></a>
+      <a href="#"><img class="footer-img" src="/photos/icon-twitter.png"></a>
+      <a href="#"><img class="footer-img" src="/photos/icon-youtube.png"></a>
+      <a class="footer-links" href="/aboutus">About Us</a>
+      <a class="footer-links" href="/contactus">Contact Us</a>
+      <a class="footer-links-1" href="/support">Support</a>
+      <a class="footer-links-1" href="/privacy">Privacy</a>
+      <p class="footer-copy">© FLID. All Rights Reserved</p
+      </div>
+        </body>
+      </html>

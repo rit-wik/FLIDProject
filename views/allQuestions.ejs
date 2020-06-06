@@ -1,0 +1,8 @@
+<%- include("partials/header"); -%>
+<a href="/login" class="btn btn-primary btn-lg btn-seecomment-back">Back</a>
+<% for(var i=0;i<Questions.length;i++) { %>
+  <ul class="quesList">
+      <li> <a href="/questions/<%-Questions[i].id%>" class="quesLink"><%= Questions[i].Question %></a>
+    </ul>
+<% } %>
+<%- include("partials/footer"); -%>

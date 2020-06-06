@@ -1,0 +1,10 @@
+<%- include("partials/header"); -%>
+  <a href="/login/promoter/approvals/review/<%=storyId%>" class="btn btn-primary btn-lg btn-seecomment-back">Back</a>
+<div class="rejectComment-div">
+  <form action="/login/onlineCounselling/storyApproval/rejectComment/update/<%=storyId%>" method="post">
+    <label for="exampleFormControlTextarea1" class="reject-label">Enter Comment:</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="16" name="rejectComment"></textarea>
+    <button type="submit" class="btn btn-primary btn-lg btn-reject-update">Update</button>
+  </form>
+</div>
+<%- include("partials/footer"); -%>

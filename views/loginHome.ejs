@@ -1,0 +1,15 @@
+<%- include("partials/header"); -%>
+<h3 class="home-title"> Hello,<%= user %>!</h3>
+<form action="/logout" method="post">
+  <button type="submit" class="btn btn-outline-primary btn-logout">Log Out</button>
+</form>
+<div class="container-loginHome">
+  <p class="loginPage-1">Discussion Forum:</p>
+  <a href="/login/questions" class="btn btn-primary btn-yourQuestions">My Questions</a>
+  <a href="/login/allQuestions" class="btn btn-primary btn-allQuestions">All Questions</a>
+  <p class="loginPage-2">Online Counselling:</p>
+  <a href="/login/onlineCounselling/gethelp" class="btn btn-primary btn-onlineCounselling-1">Get Help</a>
+  <a href="/login/onlineCounselling/approvals" class="btn btn-primary btn-onlineCounselling-2">Approvals</a>
+  </div>
+
+<%- include("partials/footer"); -%>

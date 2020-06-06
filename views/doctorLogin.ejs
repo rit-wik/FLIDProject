@@ -1,0 +1,11 @@
+<%- include("partials/header"); -%>
+<form action="/logout" method="post">
+  <button type="submit" class="btn btn-outline-primary btn-logout">Log Out</button>
+</form>
+<h3 class="home-title"> Hello,<%= user %>!</h3>
+<p class="doctor-title">Doctor's Control</p>
+<h2 class="promoter-counselling">Online Counselling</h2>
+<a href="/login/doctor/approvals" class="btn btn-primary btn-promoter-counselling">Approvals</a>
+<h2 class="promoter-discussion">Discussion Section</h2>
+<a href="/login/promoter/discussion" class="btn btn-primary btn-promoter-discussion">Questions</a>
+<%- include("partials/footer"); -%>
